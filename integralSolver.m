@@ -88,6 +88,6 @@ function [] = solve(source, event, fun, xmax, xmin, ymax, ymin)
     elseif int.num == 2
         integral2(str2func(fun.String),str2double(xmin.String),str2double(xmax.String),ymin,ymax)
     end
-        
+        % this is a test
 end
 
