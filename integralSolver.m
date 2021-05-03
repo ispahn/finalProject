@@ -25,7 +25,7 @@ function [] = integralSolver()
         %above is creates a solve button that uses a callback to the solve
         %function
     
-    help='Instructions: Functions (including bounds for double integrals if necessary) must be inputed as function handles. If the bound of the inner variable of a double integral is a function of the outer, include it in the y bounds as a function of x and switch the variables accordingly. (i.e. x must be the outer variable and must have constant bounds)';
+    help='Instructions: Functions (including bounds for double integrals if necessary) must be inputed as function handles. If the bound of the inner variable of a double integral is a function of the outer, include it in the y bounds as a function of x and switch the variables accordingly. (i.e. x must be the outer variable and must have constant bounds))';
     int.intructions=uicontrol('style','text','units','normalized','position',[.37 .2 .6 .5],'string',help,'horizontalalignment','left');
     
     int.num=1; % int.num switches between one and two for single and double integrals and is used for checking whether to use integral or integral2
